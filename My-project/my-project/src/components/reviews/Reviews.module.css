@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+}
+.reviewerAvatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 5px;
+}
+.reviews {
+  display: block;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 20px;
+  text-align: left;
+  padding: 10px;
+  background-color: aliceblue;
+  width: 80%;
+}
+input {
+  height: 40px;
+  font-size: 30;
+  width: 150px;
+  text-align: center;
+}
+.form input + input {
+  width: 250px;
+}
+
+.deleteBtn {
+  background: linear-gradient(0deg, rgb(255, 98, 48), rgb(255, 98, 48)),
+    rgb(240, 87, 38);
+  width: 140px;
+  margin: auto;
+  border-radius: 12px;
+  font-family: "PT Root UI", sans-serif;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-align: center;
+  font: serif, sans-serif;
+}
+
+.noReview {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  margin: 20px;
+}
+
+.ascentDiv {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}

@@ -1,0 +1,17 @@
+.likesBtn {
+  height: 25px;
+  width: 25px;
+}
+span {
+  padding: 5px;
+}
+
+.innerContainer {
+  display: grid;
+  justify-content: end;
+  align-items: center;
+  margin-right: 10px;
+}
+.comments {
+  display: block;
+}

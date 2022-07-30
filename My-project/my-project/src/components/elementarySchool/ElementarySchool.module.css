@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  position: absolute;
+  top: 85px;
+  left: 450px;
+  background-color: white;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+.list ul {
+  padding-inline-start: 0px;
+}
+
+.list li {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+  font-weight: 500;
+}
+.list a {
+  text-decoration: none;
+}

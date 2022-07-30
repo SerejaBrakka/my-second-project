@@ -1,0 +1,125 @@
+.header {
+  display: flex;
+  text-align: center;
+  background-color: white;
+  border-bottom: 1px solid grey;
+  height: 120px;
+}
+.header a {
+  padding: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+}
+.logo {
+  height: 100px;
+  width: 290px;
+  margin: 10px;
+  border-radius: 30px;
+}
+.login a {
+  color: white !important;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.enroll {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 40px;
+  padding: 7px 16px 9px;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(255, 98, 48);
+  border: none;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.login {
+  height: 40px;
+  padding: 7px 16px 9px;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(83, 29, 214);
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 15px;
+  font-size: 16px;
+}
+.logout {
+  height: 40px;
+  padding: 7px 16px 9px;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(83, 29, 214);
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+.header a:hover {
+  color: blue;
+}
+.enroll:active {
+  box-shadow: 1px 1px black;
+}
+.login:active {
+  box-shadow: 1px 1px black;
+}
+
+.buttons {
+  margin-left: 30px;
+}
+.header > button {
+  border: none;
+  background-color: white;
+  height: 30px;
+  margin-top: 40px;
+}
+.check {
+  width: 6px;
+  height: 6px;
+  margin: -3px 3px 3px;
+  border: solid blue;
+  border-width: 0 5px 5px 0;
+  transform: rotate(45deg);
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 65%;
+  left: 45%;
+}
+
+@keyframes anim {
+  to {
+    transform: translateY(10px);
+  }
+}
+
+.containerSecond:active {
+  animation: anim 1s;
+}
+.containerSecond:hover {
+  color: blue;
+  border: blue;
+}
+.containerSecond {
+  display: flex;
+  position: relative;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.containerSecond button {
+  background-color: white;
+  border: none;
+}

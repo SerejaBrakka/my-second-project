@@ -1,0 +1,10 @@
+.luckyEntry {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
